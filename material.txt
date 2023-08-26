@@ -1,0 +1,11 @@
+python manage.py dumpdata courses --indent=2
+
+mkdir courses/fixtures
+
+python manage.py dumpdata courses --indent=2 --output=courses/fixtures/subjects.json 
+
+python manage.py loaddata subjects.json
+
+
+# Graph
+python manage.py graph_models -a -o courses/graph/models.png

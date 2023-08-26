@@ -1,0 +1,36 @@
+[
+{
+  "model": "base.author",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "bio": "Atabek Murtazaev"
+  }
+},
+{
+  "model": "base.category",
+  "pk": 1,
+  "fields": {
+    "name": "Electronics",
+    "slug": "electronics"
+  }
+},
+{
+  "model": "base.product",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "name": "Airpods Wireless Bluetooth Headphones",
+    "image": "product/2023/08/19/airpods.jpg",
+    "brand": "Apple",
+    "category": 1,
+    "description": "Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working",
+    "rating": "4.50",
+    "numReviews": 12,
+    "price": "89.99",
+    "countInStock": 10,
+    "createdAt": "2023-08-19T12:43:57.717Z",
+    "slug": "airpods-wireless-bluetooth-headphones"
+  }
+}
+]
